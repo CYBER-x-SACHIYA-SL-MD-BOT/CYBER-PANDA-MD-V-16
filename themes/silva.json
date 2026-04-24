@@ -1,0 +1,42 @@
+{
+  "theme": "CYBER-PANDA-MD-V-16",
+  "AUTHOR": "Sachith Chandra",
+  "LANGUAGE": "English",
+  "LANGCODE": "en",
+  "STRINGS": {
+    "global": {
+      "botName": "CYBER-PANDA-MD-V-16",
+      "body": "WhatsApp Bot",
+      "greet": "Boss",
+      "greet2": "Hey Boss",
+      "pic1": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic2": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic3": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic4": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic5": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic6": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "pic7": "https://i.ibb.co/4ZLVMbZN/IMG-20250726-WA0090.jpg",
+      "dotbody": "Silva MD is online.",
+      "promote": "Admin role granted.",
+      "demote": "Admin role removed.",
+      "antlink": "Link detected. *Goodbye.*",
+      "mention": "Please mention a user.",
+      "title": "CYBER-PANDA-MD-V-16",
+      "footer": "CYBER-PANDA-MD-V-16 BOT",
+      "by": "Made by: Cyber x Sachiya",
+      "success": "Done ✓",
+      "wait": "*Processing your request* ✅",
+      "admin": "⛔ This command is for group admins only.",
+      "botAdmin": "❗ Please give me admin role first.",
+      "owner": "⛔ This command is reserved for the bot owner.",
+      "group": "❗ This feature is for groups only.",
+      "private": "⚠️ This feature is for private chats only.",
+      "bot": "⚠️ This feature is for the bot number only.",
+      "alive": "System online. All functions nominal.",
+      "aliveEmoji": "🐼"
+    },
+    "error": {
+      "text": "⚠️ An error occurred. Please try again."
+    }
+  }
+}
