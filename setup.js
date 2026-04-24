@@ -9,13 +9,13 @@ global.File = BufferFile;
     const _h = Buffer.from(_k).toString('base64');
     const _a = Buffer.from((_p.author||''), 'utf8').toString('base64');
     if (_a !== _h) {
-        process.stderr.write('\n\x1b[31m⛔  Cheap editing of Silva MD Bot detected. Build failed.\x1b[0m\n\n');
+        process.stderr.write('\n\x1b[31m⛔  Cheap editing of CYBER PANDA MD Bot detected. Build failed.\x1b[0m\n\n');
         process.exit(1);
     }
-    process.stdout.write('\x1b[32m✅ Passed the Silva security check.\x1b[0m\n');
+    process.stdout.write('\x1b[32m✅ Passed the Panda security check.\x1b[0m\n');
 })();
 
-// ✅ Silva Tech Inc Property 2025
+// ✅ Panda Tech Inc Property 2025
 const baileys = require('@whiskeysockets/baileys');
 const {
     makeWASocket,
@@ -99,7 +99,7 @@ async function loadSession() {
             // Only restore from SESSION_ID if creds.json is missing.
             // Overwriting on every restart breaks Signal encryption state (Bad MAC errors).
             if (!fs.existsSync(credsPath)) {
-                const [header, b64data] = sid.split('~');
+                const [header, b64data] = sid.split('-');
                 if (header !== "Panda" || !b64data) {
                     logMessage('WARN', "⚠️ SESSION_ID format invalid — falling back to QR scan");
                     return;
@@ -160,7 +160,7 @@ const globalContextInfo = {
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363200367779016@newsletter',
-        newsletterName: '◢◤ Silva Tech Nexus ◢◤',
+        newsletterName: '🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼',
         serverMessageId: 144
     }
 };
@@ -279,9 +279,9 @@ function generateFancyBio() {
 
     const bios = [
         `✨ ${config.BOT_NAME} ✦ Online ✦ ${dateStr} ✦`,
-        `⚡ Silva MD Active ✦ ${timeStr} ✦ ${dateStr} ✦`,
+        `🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼 ${timeStr} ✦ ${dateStr} ✦`,
         `💫 ${config.BOT_NAME} Operational ✦ ${dateStr} ✦`,
-        `🚀 Silva MD Live ✦ ${dateStr} ✦ ${timeStr} ✦`,
+        `🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼 ${dateStr} ✦ ${timeStr} ✦`,
         `🌟 ${config.BOT_NAME} Running ✦ ${dateStr} ✦`
     ];
 
@@ -1099,10 +1099,10 @@ process.on('unhandledRejection', (reason, promise) => {
         console.log('║ |____/|_|_| \\_/ \\__,_|    |_|  |_|____/  ║');
         console.log('║                                            ║');
         console.log('║        WhatsApp Bot  •  Node.js           ║');
-        console.log('║     github.com/SilvaMD  •  v2.0           ║');
+        console.log('║     github.com/Panda MD  •  v2.0           ║');
         console.log('╚══════════════════════════════════════════╝');
         console.log('\x1b[0m');
-        logMessage('INFO', 'Booting Silva MD Bot...');
+        logMessage('INFO', 'Booting CYBER PANDA MD BOT...');
 
         // ── Load sudo users from disk ───────────────────────────────────────
         try {
